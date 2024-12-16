@@ -1,0 +1,60 @@
+body {
+    font-family: "Euclid Circular A", "Poppins";
+    background-color: #f8f9fa; 
+    color: #333;
+}
+h1 {
+    color: #00529c; 
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #ffffff; 
+}
+
+
+th {
+    background-color: #00529c;
+    color: #ffffff; 
+    padding: 12px;
+    font-size: 16px;
+}
+
+
+td {
+    padding: 12px;
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid #e0e0e0; 
+}
+
+
+tr:last-child td {
+    font-weight: bold;
+    background-color: #f0f4f8; 
+    color: #00529c;
+}
+
+
+button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #00529c; 
+    color: #ffffff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #003f7c; 
+}

@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #dfe6ed;
+}
+
+th {
+    background-color: #0072c6;
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f3ff;
+}
+
+tr:hover {
+    background-color: #d0e4f7;
+}
+
+.editar {
+    background-color: rgb(49, 209, 49);
+}
+
+.eliminar {
+    background-color: rgb(236, 52, 52);
+}
+
+.editar:hover {
+    background-color: rgb(22, 199, 37);
+}
+
+.eliminar:hover {
+    background-color: red;
+}
+
+.editar, .eliminar {
+    display: inline-block;
+    margin: 10px auto;
+}
+
+/* Estilos para la tabla */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f4f4f4;
+}
+
+/* Estilos para los botones */
+button.editar {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+button.eliminar {
+    display: inline-block;
+}
+
+/* Estilos para el modal */
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+
+.input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+
+
+
+/* Ajustes para el modal-content */
+.modal-content {
+    background-color: #fff;
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px;
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box; /* Asegura que padding no afecte el ancho total */
+    position: relative;
+    margin: 0 auto; /* Centrado horizontal */
+    overflow: hidden; /* Evita el desbordamiento de contenido */
+    max-height: 90vh; /* Limita la altura para evitar el desbordamiento */
+}
+
+/* Ajustes para los inputs */
+.modal-content .input {
+    width: 40%; /* Ancho completo */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Evita que el padding haga desbordar el input */
+}
+
+/* Ajustes para los botones dentro del modal */
+.modal-content button {
+    width: 40%; /* Asegura que el botón ocupe todo el ancho disponible */
+    display: block;
+    margin: 10px 0; /* Espaciado entre los botones */
+    padding: 10px 20px;
+    background-color: #0072c6;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+/* Efecto hover para el botón */
+.modal-content button:hover {
+    background-color: #005fa3;
+}
+
+/* Ajustes de los botones editar y eliminar */
+button.editar, button.eliminar {
+    width: auto; /* Esto asegura que los botones no ocupen todo el ancho */
+    display: inline-block;
+    margin-right: 5px;
+    padding: 5px 10px;
+}
+

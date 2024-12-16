@@ -1,0 +1,120 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');  */
+/* *{
+    box-sizing: border-box;
+    padding: 0;
+    font-family: "Euclid Circular A", "Poppins"
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f2f5;
+    background: #e3f2fd;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.contenedorPrincipal {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px; 
+    width: 90%;
+    max-width: 1200px; 
+    margin: 20px auto;
+}
+
+.contenedorTiger {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    min-width: 300px; /* Ancho mínimo para la imagen */
+}
+
+.tiger {
+    width: 100%;
+    max-width: 300px; 
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, 0.8));
+}
+
+.container {
+    flex: 1;
+    width: 100%;
+    /* max-width: 400px; */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="number"]:focus {
+    border-color: #007bff;
+}
+
+/* Botón del formulario */
+.btn-register {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-register:hover {
+    background-color: #0056b3;
+}
+
+/* Ajustes responsivos */
+@media (max-width: 768px) {
+    .contenedorPrincipal {
+        flex-direction: column; /* Apila la imagen y el formulario */
+    }
+
+    .contenedorTiger {
+        margin-bottom: 20px;
+    }
+
+    .container {
+        margin: 0;
+    }
+}

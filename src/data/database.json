@@ -1,0 +1,19 @@
+{
+  "user": [
+    {
+      "username": "b673",
+      "password": "admin"
+    },
+    {
+      "id": "as234-234sdf",
+      "usuario": "superadmin",
+      "nombre": "yerismua",
+      "contraseña": "yerismua",
+      "profesion": "Arquitecta de Software",
+      "edad": 20,
+      "telefono": 3246720301,
+      "correo": "yerismua@gmail.com",
+      "vivo": true
+    }
+  ]
+}

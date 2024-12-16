@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+h1 {
+    text-align: center;
+    color: #0073e6;
+}
+
+.stats-container {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.stat-bar {
+    margin: 10px 0;
+}
+
+.stat-bar label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.progress {
+    background-color: #f2f2f2;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 20px;
+    border-radius: 5px;
+    background-color: #0073e6;
+    text-align: center;
+    color: white;
+    font-size: 14px;
+    line-height: 20px;
+}
